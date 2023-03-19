@@ -18,7 +18,7 @@ import platform
 import subprocess
 
 # Set the directory where the downloaded files are stored
-DOWNLOAD_DIR = '/Users/jiatongou/Downloads'
+DOWNLOAD_DIR = 'path/to/the/download/directory'
 
 # Find the newest Word document in the directory
 files = glob.glob(os.path.join(DOWNLOAD_DIR, '*.docx'))
